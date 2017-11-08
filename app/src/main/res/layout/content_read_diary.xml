@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_read_diary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gui.yst.photodiary.activities.ReadDiary"
+    tools:showIn="@layout/activity_read_diary">
+
+    <ImageView
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:layout_margin="0dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:onClick="clickImage"
+        android:id="@+id/diaryImageView"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentTextView"
+        android:textSize="14sp"
+        android:textColor="@color/authui_inputTextColorDark"
+        android:layout_below="@+id/datetimeTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datetimeTextView"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/diaryImageView"
+        android:layout_toEndOf="@+id/dateNumTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateNumTextView"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="normal|bold"
+        android:textSize="40sp"
+        android:layout_above="@+id/contentTextView"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

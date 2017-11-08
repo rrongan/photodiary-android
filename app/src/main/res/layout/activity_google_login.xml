@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Background: https://wallpaperscraft.com/download/book_table_light_page_44516/1080x1920-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context="gui.yst.photodiary.login.GoogleLogin">
+
+    <LinearLayout
+        android:id="@+id/btn_holder"
+        style="@style/FirebaseUI.AuthMethodPicker.ButtonHolder"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/email_provider"
+            style="@style/FirebaseUI.Button.AccountChooser.EmailButton"
+            android:text="@string/sign_in_with_email"/>
+
+        <Button
+            style="@style/FirebaseUI.Button.AccountChooser.GoogleButton"
+            android:text="@string/sign_in_with_google"
+            android:id="@+id/google_button"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

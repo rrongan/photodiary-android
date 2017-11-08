@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "131111501558",
+    "firebase_url": "https://photodiary-906f5.firebaseio.com",
+    "project_id": "photodiary-906f5",
+    "storage_bucket": "photodiary-906f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131111501558:android:97cf4690c360e733",
+        "android_client_info": {
+          "package_name": "gui.yst.photodiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131111501558-sukio4svlhv3eto8v7i0loju4mrgo3mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gui.yst.photodiary",
+            "certificate_hash": "b8cddb01a2e2184ab9bf1685e01af3aefefb9498"
+          }
+        },
+        {
+          "client_id": "131111501558-37n7r0neqq3r0lcvfefi97e4tp0ea3vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDToqY5ytoBZckR31_8TOWp-5J02oXsTwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131111501558-37n7r0neqq3r0lcvfefi97e4tp0ea3vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
